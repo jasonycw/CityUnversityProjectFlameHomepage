@@ -1,0 +1,45 @@
+/* CSS news and event */
+
+#newsAndEventBlcok{
+	background:url(../img/background/news&events.png);
+	background-repeat:no-repeat;
+	width:230px;
+	height:100%;
+	margin-top:15px;
+
+}
+
+#newsAndEventTitleString{
+	height:40px;
+	width:228px;
+	box-shadow:0px 4px 5px #888888;
+}
+
+.newsOrEventTitle{
+	width:223px;
+	padding-left:5px;
+	border-top:1px solid #EE4023;
+	border-bottom:1px solid #EE4023;
+}
+
+.newsOrEvent{
+	width:208px;
+	max-height:200px;
+	min-height:200px;
+	padding:2px 10px 0 10px;
+	overflow:auto;
+	word-wrap: break-word;
+}
+
+#newsContainer, #eventsContainer{
+	width:228px;
+	border-left:1px solid #EE4023;
+	border-right:1px solid #EE4023;
+}
+
+#eventsContainer{
+	width:228px;
+	border-bottom:1px solid #EE4023;
+	border-bottom-right-radius:5px;
+	border-bottom-left-radius:5px;
+}

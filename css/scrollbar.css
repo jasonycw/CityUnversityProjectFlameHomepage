@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS scrollbar */
+
+
+/* For IE */
+html{
+	scrollbar-track-color:#39260E;
+	scrollbar-arrow-color:#FEF6BA;
+}
+body{
+	scrollbar-track-color:#FEF6BA;
+	scrollbar-arrow-color:#39260E;
+}
+html, body {
+    scrollbar-face-color:#EE4023;
+	scrollbar-shadow-color:#EE4023;
+	scrollbar-darkshadow-color:#FEF6BA;
+}
+
+
+/* For Firefox (not support now)
+scrollbar {
+   -moz-appearance: none !important;
+   background: rgb(0,255,0) !important;
+}
+thumb,scrollbarbutton {
+   -moz-appearance: none !important;
+   background-color: rgb(0,0,255) !important;
+}
+
+thumb:hover,scrollbarbutton:hover {
+   -moz-appearance: none !important;
+   background-color: rgb(255,0,0) !important;
+}
+
+scrollbarbutton {
+   display: none !important;
+}
+
+scrollbar[orient="vertical"] {
+  min-width: 15px !important;
+}
+*/
+
+
+/* For Chrome */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0); 
+    -webkit-border-radius: 2px;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 2px;
+    border-radius: 3px;
+    background: rgba(238,64,35,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(238,64,35,0); 
+}

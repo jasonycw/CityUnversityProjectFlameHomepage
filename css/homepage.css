@@ -1,0 +1,19 @@
+/* CSS homepage contents, search bar, main contents, news and events */
+@import URL(searchBar.css);
+@import URL(content.css);
+@import URL(news&events.css);
+
+#searchBar{
+	height:40px;
+	width:800px;
+}
+
+#contentContainer{
+	width:800px;
+	padding-bottom:70px;
+}
+
+#newsAndEventBlcokContainer{
+	margin-left:550px;
+	width:250px;
+}

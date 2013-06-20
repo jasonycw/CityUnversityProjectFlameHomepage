@@ -1,0 +1,20 @@
+/* CSS content search bar */
+
+#searchBarContainer{
+	float:right;
+	width:300px;
+}
+
+#searchString{
+	width:50px;
+	height:40px;
+}
+
+#searchBar input{
+	display:block;
+	width:228px;
+	margin:0 auto;
+	border:1px solid black;
+	background:none;
+	
+}

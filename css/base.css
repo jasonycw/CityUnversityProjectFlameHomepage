@@ -1,0 +1,47 @@
+/* CSS Base */
+@import URL(scrollbar.css);
+@import URL(header.css);
+@import URL(footer.css);
+
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	text-decoration:none;
+	color:black;
+}
+
+body{
+	background:#39260E;
+	min-width:800px;
+}
+
+#mainContainer{
+	width:800px;
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	border:2px solid #EE4023;
+	background:url(../img/background/background.png);
+}
+
+a{
+	display:block;
+}
+
+img{
+	max-width:100%;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+}
+
+h3{
+	color:#BD7A25;
+}
+
+.verticalCenter{
+	display: table-cell;
+	vertical-align: middle;
+}
