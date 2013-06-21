@@ -25,6 +25,12 @@ body{
 	background:url(../img/background/background.png);
 }
 
+#contentContainer{
+	width:800px;
+	min-height:100px;
+	height:auto;
+}
+
 a{
 	display:block;
 }

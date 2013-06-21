@@ -1,5 +1,9 @@
 /* CSS header */
 
+#header{
+	height:251px;
+}
+
 #followBar{
 	position:relative;
 	width:800px;
@@ -31,6 +35,13 @@
 
 .inFollowBar img{
 	box-shadow:1px 1px 4px #888888;
+}
+
+#navigationBar{
+	display:block;
+	height:35px;
+	width:800;
+	clear:both;
 }
 
 .inNavigationBar{
